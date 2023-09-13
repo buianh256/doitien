@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đổi Tiền</title>
+
+</head>
+<body>
+<table>
+    <tr>
+        <td>Amount</td>
+        <td>From Currency</td>
+        <td>To Currency</td>
+    </tr>
+    <tr>
+        <td><label><input type="number" id="money"/></label></td>
+        <td><select id="from">
+            <option value="1">USD</option>
+            <option value="23000">VND</option></select></td>
+        <td><select id="to">
+            <option value="1">USD</option>
+            <option value="23000">VND</option></select></td>
+        <td><button onclick="convertMoney()">convert</button> </td>
+    </tr>
+</table>
+<p id="result"></p>
+    <script src="doitien.js"></script>
+</body>
+</html>
